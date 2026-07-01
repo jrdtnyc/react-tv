@@ -23,10 +23,6 @@ export default function App() {
         />
       </header>
 
-      {/*
-        Changing the `key` prop will force the ShowDetails to rerender
-        whenever the selected show changes.
-      */}
       <main>
         <ShowDetails key={selectedShow?.name} show={selectedShow} />
       </main>
